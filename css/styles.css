@@ -1,0 +1,43 @@
+button{
+    cursor: pointer;
+}
+
+h2,h4,label,input,button{
+    font-family: tahoma;
+    font-size: 11px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h4{
+    display: block;
+    color: #333333;
+    font-size: 12px;
+}
+
+#master{
+    margin: 0 auto;
+    width: 800px;
+}
+
+#parent{   
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+}
+
+#board{
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+}
+
+#console{
+    height: 150px;
+    position: relative;
+}
